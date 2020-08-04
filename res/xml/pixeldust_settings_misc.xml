@@ -64,4 +64,11 @@
         android:summary="@string/device_identifier_access_restrictions_summary"
         android:defaultValue="false" />
 
+    <!-- Sensor block per-package -->
+    <com.pixeldust.settings.preferences.GlobalSettingSwitchPreference
+        android:key="sensor_block"
+        android:title="@string/sensor_block_title"
+        android:summary="@string/sensor_block_summary"
+        android:defaultValue="true" />
+
 </PreferenceScreen>
